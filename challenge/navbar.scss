@@ -1,0 +1,36 @@
+@import 'global';
+.navbar
+{
+    display:flex;
+    flex-wrap: wrap;
+    .logo-icon
+    {
+        padding:2rem;
+        img
+        {
+            display: inline-block;
+            margin-left:4rem;
+        }
+    }
+    .navbar-items
+    {
+        ul
+        {
+            margin-left: 9rem;
+            li
+            {
+                font-family:'Public Sans', sans-serif;
+                font-size:0.85rem;
+                padding: 2rem;
+                color:$Grayish-Blue;
+            display: inline-block;
+        }
+    }
+}
+.button-container
+{
+    padding: 1rem;
+    margin-left: 5rem;;
+    @import 'button';
+}
+}

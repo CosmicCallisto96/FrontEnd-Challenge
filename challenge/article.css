@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.article {
+  height: 637px;
+  background-color: #fafafa;
+}
+
+.article .article-heading {
+  padding-top: 5rem;
+  margin-left: 85px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 2.4rem;
+  color: #2d314d;
+  font-weight: 300;
+}
+
+.article .article-container {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.article .article-container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.article .article-container .row .c1 img {
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 85px;
+  height: 203px;
+  width: 258px;
+}
+
+.article .article-container .row .c1 .box1 {
+  background-color: white;
+  margin-left: 85px;
+  width: 204px;
+  padding: 27px;
+  height: 136px;
+  margin-top: -2px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.article .article-container .row .c1 .box1 .author {
+  font-family: "Public Sans", sans-serif;
+  color: #9698a6;
+  font-size: 0.6rem;
+}
+
+.article .article-container .row .c1 .box1 .article-head {
+  margin-top: 1rem;
+  font-family: "Public Sans", sans-serif;
+  color: #2d314d;
+  font-weight: 300;
+}
+
+.article .article-container .row .c1 .box1 .article {
+  margin-top: 0.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #9698a6;
+  background-color: white;
+  font-weight: 400;
+  font-size: 0.78rem;
+  height: 81px;
+}
+
+.article .article-container .row .c2 {
+  margin-left: 24px;
+}
+
+.article .article-container .row .c2 img {
+  border-radius: 5px 5px 0px 0px;
+  margin-left: 20px;
+  height: 203px;
+  width: 258px;
+}
+
+.article .article-container .row .c2 .box2 {
+  margin-left: 10px;
+  background-color: white;
+  margin-left: 20px;
+  width: 204px;
+  padding: 27px;
+  margin-top: -2px;
+  height: 136px;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.article .article-container .row .c2 .box2 .author {
+  font-family: "Public Sans", sans-serif;
+  color: #9698a6;
+  font-size: 0.6rem;
+}
+
+.article .article-container .row .c2 .box2 .article-head {
+  margin-top: 1rem;
+  font-family: "Public Sans", sans-serif;
+  color: #2d314d;
+  font-weight: 300;
+}
+
+.article .article-container .row .c2 .box2 .article {
+  margin-top: 0.8rem;
+  font-family: "Public Sans", sans-serif;
+  color: #9698a6;
+  background-color: white;
+  font-weight: 400;
+  font-size: 0.78rem;
+  height: 81px;
+}
+/*# sourceMappingURL=article.css.map */

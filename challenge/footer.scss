@@ -1,0 +1,91 @@
+@import 'global';
+.footer
+{
+background-color:$Dark-Blue;
+height: 80px;
+padding: 50px;
+.footer-container
+{
+    display: flex;
+    flex-wrap: wrap;
+    .footer-row
+    {
+        display: flex;
+        .footer-col1
+        {
+            svg
+            {
+                margin-left: 40px;
+            }
+            .footer-icons
+            {
+                padding-top: 50px;
+                margin-left: 40px;
+                .yt{
+                    padding-left: 15px;
+                }
+                .pt{
+                    padding-left: 15px;
+                }
+                .twt
+                {
+                    padding-left: 15px;
+                }
+                .insta
+                {
+                    padding-left: 15px;
+                }
+            }
+        }
+        .footer-col2
+        {
+            h5
+            {
+            padding-left: 140px;
+            color: $Light-Grayish-Blue;
+            font-family: $text-style;
+            font-weight: 100;
+            padding-bottom: 20px;
+            font-size:0.95rem;
+            }
+        }
+        .footer-col3
+        {
+            h5
+            {
+            padding-left: 140px;
+            color: $Light-Grayish-Blue;
+            font-family: $text-style;
+            font-weight: 100;
+            padding-bottom: 20px;
+            font-size:0.95rem;
+            }
+        }
+        .footer-col4
+        {
+            padding-right: 0px;
+            button
+        {
+            margin-left: 400px;
+        display: block;
+        border: none;
+        width: 11rem;
+        padding: 0.8rem;
+        border-radius: 36px 36px;
+        font-size:0.95rem;
+        background-image: linear-gradient(to right,$Lime-Green, $Bright-Cyan);
+        color: white;
+        }
+
+          .copyright
+          {
+              padding-top: 30px;
+              padding-left: 350px;
+              font-size: 0.95rem;
+            font-family: $text-style;
+            color:$Grayish-Blue;
+          }
+        }
+    }
+}
+}

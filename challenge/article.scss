@@ -1,0 +1,113 @@
+@import 'global';
+.article
+{
+    height: 637px;
+    background-color:$Very-Light-Gray;
+    .article-heading
+    {
+        padding-top: 5rem;
+margin-left: 85px;
+font-family: $text-style;
+font-size:2.4rem;
+color: $Dark-Blue;
+font-weight: 300;
+    }
+    .article-container
+    {
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        .row
+        {
+            display: flex;
+            .c1
+            {
+            img
+            {
+                border-radius: 5px 5px 0px 0px;
+                margin-left: 85px;
+                height: 203px;
+                width: 258px;
+            }
+            .box1
+            {
+                background-color:white;
+                margin-left: 85px;
+                width: 204px;
+                padding: 27px;
+                height:136px;
+                margin-top: -2px;
+                border-radius: 0px 0px 5px 5px;
+                .author
+                {
+                    font-family: $text-style;
+                    color: $Grayish-Blue;
+                    font-size: 0.6rem;
+                }
+                .article-head
+                {
+                    margin-top: 1rem;
+                    font-family: $text-style;
+                    color: $Dark-Blue;
+                    font-weight: 300;
+                }
+                .article
+                {
+                    margin-top: 0.8rem;
+                    font-family: $text-style;
+                    color: $Grayish-Blue;
+                    background-color: white;
+                    font-weight: 400;
+                    font-size: 0.78rem;
+                    height: 81px;
+                }
+            }
+        }
+        .c2
+        {
+            margin-left: 24px;
+            img
+            {
+                border-radius: 5px 5px 0px 0px;
+                margin-left: 20px;
+                height: 203px;
+                width: 258px;
+            }
+            .box2
+            {
+                margin-left: 10px;
+                background-color:white;
+                margin-left: 20px;
+                width: 204px;
+                padding: 27px;
+                margin-top: -2px;
+                height:136px;
+                border-radius: 0px 0px 5px 5px;
+                .author
+                {
+                    font-family: $text-style;
+                    color: $Grayish-Blue;
+                    font-size: 0.6rem;
+                }
+                .article-head
+                {
+                    margin-top: 1rem;
+                    font-family: $text-style;
+                    color: $Dark-Blue;
+                    font-weight: 300;
+                }
+                .article
+                {
+                    margin-top: 0.8rem;
+                    font-family: $text-style;
+                    color: $Grayish-Blue;
+                    background-color: white;
+                    font-weight: 400;
+                    font-size: 0.78rem;
+                    height: 81px;
+                }
+            }
+        }
+        }
+    }
+}

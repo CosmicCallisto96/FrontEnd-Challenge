@@ -1,0 +1,87 @@
+@import 'global';
+.hero
+{
+    overflow-x: hidden;
+    display:flex;
+    flex-wrap: wrap;
+    height:127vh;
+    background-color: $Very-Light-Gray;
+    .hero-text
+    {
+        padding-top: 10rem;
+        width: 44%;
+        margin-right: 85px;
+        display: inline-block;
+        padding-left: 6%;
+        background-color: $Very-Light-Gray;
+        .text-box
+        {
+            width:75%;
+            background-color: $Very-Light-Gray;
+            padding-right: 0rem;
+        .hero-heading
+        {
+            width: 100%;
+            font-family:'Public Sans', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 300;
+            text-align: left;
+            color:$Dark-Blue;
+            background-color: $Very-Light-Gray;
+        }
+        .hero-para
+        {
+            text-align:left;
+            color:$Grayish-Blue ;
+            background-color: $Very-Light-Gray;
+            font-size: 1.29rem;
+            width: 100%;
+        }
+        .hero-button
+        {
+                margin-top: 20px;
+                display: block;
+    border: none;
+    width: 11rem;
+    padding: 0.8rem;
+    border-radius: 36px 36px;
+    font-size:0.95rem;
+    background-image: linear-gradient(to right,$Lime-Green, $Bright-Cyan);
+    color: white;
+        }
+    }
+    }
+    .hero-img
+    {
+        display: inline-block;
+        background-color: $Very-Light-Gray;
+        width:45%;
+        height:90vh;
+        position: relative;
+        margin-left: 593px;
+        margin-top:-351px;
+        .bg-img
+        {
+            position: absolute;
+            margin-top:-376px;
+            padding-left: 0rem;
+            width: 1105px;
+            height: 878px;
+            clip: rect(221px,756px,812px,0px);
+            z-index: 1;
+        }
+        .front-img
+        {
+            margin-left: 10rem;
+            position: absolute;
+            padding-left: 1rem; 
+            margin-top:-258px;
+            width: 699px;
+            height: 853px;
+            z-index: 3;
+            clip: rect(103px,596px,821px,0px);
+        }
+        
+    }
+    
+}

@@ -1,0 +1,12 @@
+@import 'global';
+button
+{
+    display: block;
+    border: none;
+    width: 11rem;
+    padding: 0.8rem;
+    border-radius: 36px 36px;
+    font-size:0.95rem;
+    background-image: linear-gradient(to right,$Lime-Green, $Bright-Cyan);
+    color: white;
+}

@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.navbar .logo-icon {
+  padding: 2rem;
+}
+
+.navbar .logo-icon img {
+  display: inline-block;
+  margin-left: 4rem;
+}
+
+.navbar .navbar-items ul {
+  margin-left: 9rem;
+}
+
+.navbar .navbar-items ul li {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 0.85rem;
+  padding: 2rem;
+  color: #9698a6;
+  display: inline-block;
+}
+
+.navbar .button-container {
+  padding: 1rem;
+  margin-left: 5rem;
+}
+
+.navbar .button-container button {
+  display: block;
+  border: none;
+  width: 10rem;
+  padding: 1rem;
+  border-radius: 36px 36px;
+  font-size: 0.95rem;
+  background-image: -webkit-gradient(linear, left top, right top, from(#83e1ad), to(#82d5d3));
+  background-image: linear-gradient(to right, #83e1ad, #82d5d3);
+  color: white;
+}
+/*# sourceMappingURL=navbar.css.map */

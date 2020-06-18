@@ -1,0 +1,33 @@
+@import 'global';
+.container
+{
+    height: 330px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: $Light-Grayish-Blue;
+    margin-top: -1.25rem;
+    padding-top: 80px;
+    h1
+{
+font-family: $text-style;
+color:$Dark-Blue;
+font-size: 1.4rem;
+padding-top:30px;
+font-weight: 300;
+}
+p
+{
+    font-family: $text-style;
+    font-size: 1rem;
+    color:$Grayish-Blue;
+    padding-top: 28px;
+    width: 91.5%;
+}
+    .row
+    {
+        display: flex;
+        padding-left: 85px;
+        padding-right: 85px;
+}
+}
