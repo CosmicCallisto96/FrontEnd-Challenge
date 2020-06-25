@@ -1,0 +1,301 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  height: 100%;
+}
+
+body {
+  font-style: 14px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fafafa;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.card1 {
+  padding-bottom: 15rem;
+}
+
+.cards-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-columns {
+  display: flex;
+}
+
+.card-img-top {
+  height: 10rem;
+  background-size: auto;
+}
+
+.cards-box1 {
+  display: block;
+}
+
+.card-columns1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card-img-top1 {
+  width: 100%;
+  height: 100%;
+}
+
+.clicked {
+  background-color: #202d36;
+  color: white;
+}
+
+.clicked .box .row1 .back {
+  background-color: #2b3945;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.clicked a {
+  color: white;
+}
+
+.clicked .header {
+  background-color: #2b3945;
+}
+
+.clicked span.bbox {
+  background-color: #2b3945;
+}
+
+.clicked .input {
+  background-color: #2b3945;
+  color: white;
+}
+
+.clicked .cfilter {
+  background-color: #2b3945;
+  color: white;
+}
+
+.clicked .card {
+  background-color: #2b3945;
+}
+
+.clicked .card-body1 {
+  background-color: #2b3945;
+  /*width:100%; 
+    height:100%; 
+    object-fit:cover; */
+}
+
+.clicked .card-body1 p {
+  font-size: 16px;
+}
+
+.clicked i {
+  color: white;
+}
+
+.clicked .b {
+  color: white;
+  background-color: #2b3945;
+}
+
+a {
+  height: 0rem;
+  text-decoration: none;
+  font-weight: 600;
+  color: #111517;
+}
+
+.header {
+  background-color: white;
+  height: 75px;
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.header .witw {
+  padding-left: 80px;
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.header .mode {
+  padding-right: 80px;
+}
+
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search .name {
+  padding-left: 80px;
+  padding-top: 45px;
+  padding-bottom: 45px;
+}
+
+.search .name .input {
+  border-radius: 4px;
+  padding-left: 80px;
+  height: 50px;
+  width: 400px;
+  font-size: 14px;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.search .filter {
+  padding-right: 80px;
+}
+
+.search .filter .cfilter {
+  margin-left: 80px;
+  padding: 10px;
+  border-radius: 4px;
+  height: 50px;
+  width: 200px;
+  font-size: 14px;
+  font-weight: normal;
+  border: none;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+div.card1 {
+  padding-right: 73.3px;
+}
+
+.cards-box {
+  display: flex;
+  padding-left: 80px;
+}
+
+.cards-box .cards-columns1 .card {
+  height: 18rem;
+}
+
+.bboxc {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.bboxc .bh {
+  font-weight: bold;
+}
+
+.bboxc .bbox {
+  background-color: white;
+  padding: 2px 10px 2px 10px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+}
+
+.box {
+  min-height: 700px;
+}
+
+.box .row1 .back {
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+  margin-top: 100px;
+  margin-left: 80px;
+  display: flex;
+  border-radius: 4px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.box .row1 .back .b {
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.box .container .row2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.box .container .row2 .col1 {
+  width: 562px;
+  height: 404px;
+  margin-left: 60px;
+  margin-top: 100px;
+}
+
+.box .container .row2 .col2 {
+  padding: 80px;
+}
+
+.box .container .row2 .col2 .c2r1 {
+  display: flex;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .cn {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .nn {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .pop {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .reg {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .sr {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c1 .cap {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c2 {
+  margin-top: 120px;
+  margin-left: 100px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c2 .tld {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c2 .curr {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r1 .c2c2 .lang {
+  font-weight: bold;
+  margin-bottom: 7px;
+}
+
+.box .container .row2 .col2 .c2r2 .bc {
+  margin-top: 100px;
+  vertical-align: bottom;
+}

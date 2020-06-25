@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+$Dark-Blue: hsl(209, 23%, 22%);
+$Very-Dark-Blue0: hsl(207, 26%, 17%);
+$Very-Dark-Blue1: hsl(200, 15%, 8%);
+$Dark-Gray: hsl(0, 0%, 52%);
+$Very-Light-Gray: hsl(0, 0%, 98%);
+$White: hsl(0, 0%, 100%);
+$colors: (
+  primary:    #387ef5,
+  secondary:  #32db64,
+  danger:     #f53d3d,
+  light:      #f4f4f4,
+  dark:       #222,
+  vibrant:    rebeccapurple,
+  bright:     #ffc125
+);
+* {
+    margin: 0px;
+    padding: 0px;
+ }
+ button{
+     height: 100%;
+ }
+body
+{
+font-style: 14px;
+font-family: 'Nunito Sans', sans-serif;
+background-color: $Very-Light-Gray;
+}
+img{vertical-align: bottom}
+p
+{
+    
+}
+.card1{
+    
+    //height:200rem;
+    padding-bottom: 15rem;
+}.cards-box
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-columns
+{
+    display: flex;
+}
+.card-img-top
+{
+    height: 10rem;
+    background-size: auto;
+}
+.cards-box1
+{
+    display: block;
+   
+}
+.card-columns1
+{
+    display:flex;
+    flex-wrap: wrap;
+}
+.card-img-top1
+{
+    width:100%; 
+    height:100%; 
+   // object-fit:cover; 
+  
+
+}
+.clicked {
+        background-color:rgb(32,45,54);
+    color: white;
+    .box
+    {
+        .row1
+        {
+            .back
+            {
+                background-color: $Dark-Blue;
+                box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+             }
+            }
+        }
+    a{
+        color: hsl(0, 0%, 100%);
+    }
+    .header{
+        background-color: $Dark-Blue;
+    }
+    span.bbox
+  {
+      background-color: $Dark-Blue;
+  }
+   .input
+   {
+       background-color: $Dark-Blue;
+        color:$White
+   }
+   .cfilter
+   {
+    background-color: $Dark-Blue;
+    color:$White;
+   }
+   .card{
+    background-color: $Dark-Blue;
+    //width:100%; 
+    //height:18rem; 
+    //object-fit:cover; 
+   }
+   .card-body1
+   {
+    background-color: $Dark-Blue;
+    /*width:100%; 
+    height:100%; 
+    object-fit:cover; */
+   p
+   {
+       font-size: 16px;;
+   }
+}
+i{
+    color: $White;
+}
+.b
+{
+    color: $White;
+    background-color: $Dark-Blue;
+}
+  }
+  a{
+      height: 0rem;
+      text-decoration: none;
+      font-weight: 600;
+      color: $Very-Dark-Blue1;
+  }
+  .header{
+      background-color: white;
+      height: 75px;
+      padding: 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+      .witw
+      {
+            padding-left: 80px;
+          font-size: 22px;
+          font-weight:bolder;
+      }
+      .mode
+      {
+          padding-right: 80px;
+      }
+  }
+  .search
+  {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      .name
+      {
+          padding-left: 80px;
+          padding-top: 45px;
+          padding-bottom: 45px;
+        .input
+        {
+            border-radius: 4px;
+            padding-left: 80px;
+            height:50px;
+            width:400px;
+            font-size: 14px;
+            border:none;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+        }
+      }
+      .filter
+      {
+        padding-right: 80px;
+            .cfilter
+            {
+                margin-left: 80px;
+                padding: 10px;
+                border-radius: 4px;
+                height:50px;
+            width:200px;
+            font-size: 14px;
+            font-weight:normal;
+            border:none;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+            }
+            
+      }
+  }
+  
+  div.card1{
+    padding-right: 73.3px;
+    //padding-bottom: 100px;
+  }
+  .cards-box
+  {
+      display: flex;
+      padding-left: 80px;
+      .cards-columns1
+      {
+          .card{
+              height: 18rem;
+             .info_link
+              {
+                .card-img-top1 
+                {
+
+                }
+                  .card-body1
+                  {
+                      //background-color: red;
+                      .card-text
+                      {
+                          
+                      }
+                  }
+              }
+
+          }
+      }
+  }
+  .bboxc
+  {
+      display: flex;
+      justify-content: space-evenly;
+      //width: 100px;
+        align-items:baseline;
+        .bh
+        {
+            font-weight: bold;
+        }
+  .bbox
+  {
+   background-color: white;
+   padding:2px 10px 2px 10px;
+   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+  }
+}
+  .box
+{
+    min-height: 700px;
+    .row1
+    {
+        .back
+        {
+            background-color: $White;
+            box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);
+            margin-top: 100px;
+            margin-left: 80px;
+            display: flex;
+            border-radius: 4px;
+            border: none;
+            width: 180px;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+              .b
+              {
+              font-size: 16px;
+              margin-left: 12px;
+              }
+        }
+    }
+    .container
+    {
+       
+        .row2
+        {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        .col1
+        {
+            width: 562px;
+            height: 404px;
+            margin-left:60px;
+            margin-top: 100px;
+
+        }
+        .col2
+        {
+            padding: 80px;
+            .c2r1
+            {
+                display: flex;
+            .c2c1
+            {
+                .cn
+                {
+                    margin-top: 60px;
+                    margin-bottom: 20px;
+                }
+                .nn
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .pop
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .reg
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .sr
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .cap
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                
+            }
+            .c2c2
+            {
+                margin-top: 120px;
+                margin-left: 100px;
+                .tld
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .curr
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+                .lang
+                {
+                    font-weight: bold;
+                    margin-bottom: 7px;
+                }
+            }
+        }
+            .c2r2
+            {
+            .bc
+            {
+                margin-top: 100px;
+                vertical-align:bottom;
+            }
+        }
+        }
+    }
+    }
+}

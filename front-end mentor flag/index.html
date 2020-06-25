@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
+  <link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body class="clicked">
+    <div class="header">
+        <span class="witw">Where in the world?</span>
+        <span class="mode" id="moon"><a href="#"><i class="far fa-moon"></i></a>
+        <a href="#">Dark Mode</a></span>
+    </div>
+    <div class="search">
+        <span class="name" id="name"><input class="input" type="text" id="flag-search" placeholder="&#xF002          Search for a country.." style="font-family:Arial, FontAwesome" /></span>
+        <span class="filter">
+            <select id="cfilter" class="cfilter">
+            <option class="op" style="display: none;">Filter By Region</option>
+            <option value="africa">Africa</option>
+            <option value="americas">America</option>
+            <option value="asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select></span>
+    </div>
+    <div class="large-box" id="big-box"></div>
+    <div class="filter-cards" id="ifilter-cards"></div>
+    <div class="cards-box" id="cards-flag"></div>
+    <div class="card-solo" id="cards-solo"></div>
+    <script src="./app.js"></script>
+</body>
+</html>
