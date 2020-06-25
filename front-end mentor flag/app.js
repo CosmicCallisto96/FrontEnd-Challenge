@@ -150,7 +150,7 @@ function check_country()
         fetchJSONFile('https://restcountries.eu/rest/v2/all', function(data){
         for(var i=0;i<data.length;i++)
         {
-            if((data[i].name.toLowerCase())==country_name.toLowerCase())
+            if((data[i].name.toLowerCase()).includes(country_name.toLowerCase())==true)
             {
               $('.card-solo-js').remove();
                 //console.log(data[i]);
