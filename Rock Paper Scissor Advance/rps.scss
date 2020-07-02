@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600&display=swap');
+$Scissors-Gradient: hsl(39, 89%, 49%), hsl(40, 84%, 53%);
+$Paper-Gradient: hsl(230, 89%, 62%) , hsl(230, 89%, 65%);
+$Rock-Gradient: hsl(349, 71%, 52%) , hsl(349, 70%, 56%);
+$Lizard-Gradient: hsl(261, 73%, 60%) , hsl(261, 72%, 63%);
+$Cyan: hsl(189, 59%, 53%) , hsl(189, 58%, 57%);
+$Dark-Text: hsl(229, 25%, 31%);
+$Score-Text: hsl(229, 64%, 46%);
+$Header-Outline: hsl(217, 16%, 45%);
+$Radial-Gradient: hsl(214, 47%, 23%) , hsl(237, 49%, 15%);
+$font:'Barlow Semi Condensed', sans-serif;
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+html
+{
+    height: 1000px;
+}
+body
+{
+font-family: $font;
+background-image:radial-gradient(hsl(214, 47%, 23%) , hsl(237, 49%, 15%));
+background-size: cover;
+background-repeat: no-repeat;
+}
+.top-box
+{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    padding: 30px;
+    .sbox
+    {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        border: solid 1.5px $Header-Outline;
+        padding: 10px 30px 10px 30px;
+        border-radius: 10px;
+    .rps-logo
+    {
+        img
+        {
+        
+        }
+    }
+    .score-box
+    {
+        background-color: white;
+        width: 23%;
+        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .score-label
+        {
+            
+            h2
+            {
+                text-align: center;
+                font-size: 20px;
+                color: $Score-Text;
+                font-weight: bolder;
+            }
+        }
+        .score-number
+        {
+            text-align: center;
+color: $Dark-Text;
+font-size: 50px;
+        }
+    }
+}
+}
+.rps-icons
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    .rps-box
+    {
+   background-image: url(images/bg-pentagon.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 34%;
+    height: 70%;
+    //display: flex;
+    .row1
+    {
+        display: flex;
+        justify-content: center;
+        height:80px;
+        .scissor
+        {
+            display: flex;
+            justify-content: center;
+            width: 38%;
+            height: 203%;
+            margin-top: -73px;
+            border-radius: 50%;
+            .sci
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+    }
+        .row2
+    {
+        display: flex;
+        justify-content: space-between;
+        vertical-align: baseline;
+        height:80px;
+        .spock
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38%;
+            height: 203%;
+            margin-left:-60px;
+            border-radius: 50%;
+            .spo
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient( hsl(189, 59%, 53%) , hsl(189, 58%, 57%));
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+        .paper
+        {
+            display: flex;
+            justify-content: center;
+            width: 38%;
+            height: 203%;
+            margin-right: -70px;
+            border-radius: 50%;
+            .pap
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient( $Paper-Gradient);
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+        
+    }
+    .row1
+    {
+        display: flex;
+        justify-content: center;
+        height:80px;
+        .scissor
+        {
+            display: flex;
+            justify-content: center;
+            width: 38%;
+            height: 203%;
+            margin-top: -73px;
+            border-radius: 50%;
+            .sci
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+    }
+        .row3
+    {
+        display: flex;
+        justify-content: space-around;
+        vertical-align: center;
+        height:80px;
+        .lizard
+        {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38%;
+            height: 203%;
+            margin-left:-60px;
+            margin-top: 180px;
+            border-radius: 50%;
+            .liz
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient( $Lizard-Gradient);
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+        .rock
+        {
+            display: flex;
+            justify-content: center;
+            width: 38%;
+            height: 203%;
+            margin-right: -70px;
+            margin-top:180px ;
+            border-radius: 50%;
+            .roc
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image:radial-gradient( $Rock-Gradient);
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+        
+    }
+}
+
+}
+.rules
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 35px;
+    button
+    {
+        background-color: transparent;
+        color: white;
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        border: solid 1.5px $Header-Outline;
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+.popbox
+{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+.popup
+{
+    position: fixed;
+    display: none;
+  z-index: 1;
+  left: 0;
+  top: 0;
+width: 100%; 
+height: 100%;
+ background-color: rgba(0,0,0,0.4);
+   padding: 100px 50px 60px 450px;
+    border-radius: 10px;
+    .r1
+    {
+        height: 50px;
+        width:24%;
+        border-radius: 10px 10px 0px 0px;
+        background-color: white;
+        padding: 15px 50px 0px 40px;
+        display: flex;
+        justify-content: space-between;
+        .rules-title
+        {
+            color: $Dark-Text;
+            font-size: 24px;
+
+        }
+        
+    }
+    .r2
+    {
+        width:24%;
+        border-radius: 0px 0px 10px 10px;
+        padding: 0px 50px 40px 40px;
+        background-color: white;
+    }
+}
+}
+.game
+{
+    .select
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .yp
+        {
+            font-size: 18px;
+            color: white;
+            padding-right: 200px;
+        }
+        .hp
+        {
+            font-size: 18px;
+            color: white;
+        }
+    }
+    .select-icon
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:115px;
+        width: 100%;
+        .scissors
+        {
+            display: flex;
+            justify-content: flex-end;
+            width: 17%;
+            height: 203%;
+            margin-top: 200px;
+           margin-left: 0px;
+            .sci
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+               // background-image:radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 75%;
+                    height: 75%;
+                    background-color: white;
+                    border-radius: 50%;
+                    box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+        .scissorr
+        {
+            display: flex;
+            justify-content: center;
+            width: 17%;
+            height: 203%;
+            margin-top: 200px;
+            border-radius: 50%;
+            margin-left: 80px;
+            .sci
+            {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                //background-image:radial-gradient(hsl(39, 89%, 49%), hsl(40, 84%, 53%));
+                border:none;
+                width: 100%;
+                height: 100%;
+                border-radius: 50%;
+                background-color: transparent;
+                //background-color:hsl(237, 49%, 15%);
+               // box-shadow: 0px -8px 1px -1px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                .wbox
+                {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 65%;
+                    height: 65%;
+                    background-color:hsl(237, 49%, 15%);
+                    border-radius: 50%;
+                    //box-shadow: 0px 8px 0px 0px rgba(0, 0, 0, 0.2) inset, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                img
+                {
+                    height: 50%;
+                    width: 50%;
+                    object-fit:contain; 
+                    background-position: center;
+                }
+            }
+            }
+        }
+    }
+}
+.game
+{
+.select
+{
+    .select-icon
+    {
+.con-box
+{
+    display: flex;
+    .con-title-box
+    {
+        color: white;
+    }
+    .play-box
+    {
+        button
+        {
+            color: $Score-Text;
+        }
+    }
+}
+    }
+}
+}

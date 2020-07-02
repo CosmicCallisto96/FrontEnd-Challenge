@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="rps.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="top-box">
+        <div class="sbox">
+        <div class="rps-logo"><img src="images/logo-bonus.svg" alt=""></div>
+        <div class="score-box">
+            <div class="score-label"><h2>SCORE</h2></div>
+            <div class="score-number" id="sc-num"><div class="rem">0</div></div>
+        </div>
+    </div>
+</div>
+<div id="result"></div>
+<div id="rstick"></div>
+    <div class="rps-icons">
+        <div class="rps-box">
+        <div class="row1">
+            <div class="scissor">
+                <button class="sci" name="scissor" onclick="show(this.name)">
+                    <div class="wbox">
+                    <img src="images/icon-scissors.svg" alt="">
+                </div>
+                </button>
+            </div>
+        </div>
+        <div class="row2">
+            <div class="spock">
+                <button class="spo" name="spock" onclick="show(this.name)">
+                    <div class="wbox">
+                    <img src="images/icon-spock.svg" alt="">
+                </div>
+                </button>
+            </div>
+            <div class="paper">
+                <button class="pap" name="paper" onclick="show(this.name)">
+                    <div class="wbox">
+                    <img src="images/icon-paper.svg" alt="">
+                </div>
+                </button>
+            </div>
+        </div>
+        <div class="row3">
+            <div class="lizard">
+                <button class="liz" name="lizard" onclick="show(this.name)">
+                    <div class="wbox">
+                    <img src="images/icon-lizard.svg" alt="">
+                </div>
+                </button>
+            </div>
+            <div class="rock">
+                <button class="roc" name="rock" onclick="show(this.name)">
+                    <div class="wbox">
+                    <img src="images/icon-rock.svg" alt="">
+                </div>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="rules"><button id="rclick">RULES</button></div>
+<div class="popbox">
+<div class="popup" id='pop'>
+    <div class="r1">
+    <div class="rules-title">Rules</div><a class="cross"><img src="images/icon-close.svg" alt=""></a></div>
+    <div class="r2"><img src="images/image-rules-bonus.svg" alt=""></div>
+</div>
+</div>
+
+    <script src="rps.js"></script>
+</body>
+</html>

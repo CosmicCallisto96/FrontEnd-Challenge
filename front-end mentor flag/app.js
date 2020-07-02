@@ -103,7 +103,7 @@ fetchJSONFile('https://restcountries.eu/rest/v2/all', function(data){
     <div class="row1"><button class="back" id="back" onclick="backfire()"><i class="fal fa-long-arrow-left fa-2x"></i><h1 class="b">Back</h1></button></div>
     <div class="container">
         <div class="row2">
-            <div class="col1"><img src=${data[p].flag} alt="" class="bflag" style="width: 36rem; padding:1rem"></div>
+            <div class="col1"><img src=${data[p].flag} alt="" class="bflag" style="width: 36rem; height:25rem; padding:1rem"></div>
             <div class="col2">
                 <div class="c2r1">
                 <div class="c2c1">
@@ -229,34 +229,37 @@ $('#cfilter').click(function()
 for (var i = 0; i <data.length; i++) 
 {if(data[i].region.toLowerCase()==regions.toLowerCase())
     {
-if (i % 4 == 0) 
-{
-    output += `<div class="card1"><div class="card" style="width: 15rem;border-radius:5px; padding:0 rem;box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);">
-    <a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><img class="card-img-top1"style="width: 15rem;border-radius:5px 5px 0px 0px; padding:0rem" src=${data[i].flag} alt="Card image cap">
-    <div class="card-body1">
-    <h1 class="card-text" style="font-size:20px;font-weight:700;padding:10px 0 10px 30px">` + data[i].name + `</h1>
-    <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Population: ` + data[i].population + `</p>
-    <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Region: ` + data[i].region + `</p>
-    <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Capital: ` + data[i].capital + `</p>
-    </div>
-    </a>
-    </div></div><br>`;
-    output += "<br>";
-    } else {
-        output += `<div class="card1"><div class="card" style="width: 15rem;border-radius:5px; padding:0 rem;box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);">
-        <a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><img class="card-img-top1"style="width: 15rem;border-radius:5px 5px 0px 0px; padding:0rem" src=${data[i].flag} alt="Card image cap">
-        <div class="card-body1">
-        <h1 class="card-text" style="font-size:20px;font-weight:700;padding:10px 0 10px 30px">` + data[i].name + `</h1>
-        <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Population: ` + data[i].population + `</p>
-        <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Region: ` + data[i].region + `</p>
-        <p class="card-text1" style="font-size:16px;font-weight:600;padding:5px 0 5px 30px">Capital: ` + data[i].capital + `</p>
-        </div>
-        </a>
-        </div></div>`;
-    }
-    }
-}
-    output += '</div>';
+        if (i % 4 == 0) {
+            output += `<a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><div class="card1"><div class="card" style="height: 10rem; width:15rem;
+             border-radius:5px; padding:0 rem;box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);">
+            <img class="card-img-top1"style="width:100%; 
+            height:100%; 
+            object-fit:cover; background-size: cover;background-position-y: top; border-radius:5px 5px 0px 0px; padding:0rem" src=${data[i].flag} alt="Card image cap"></a>
+            <a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><div class="card-body1" style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);border-radius:5px">
+            <h1 class="card-text" style="font-size:18px;font-weight:700;padding:10px 0 10px 30px">` + data[i].name + `</h1>
+            <p class="card-text1" style="font-size:14px;font-weight:regular;padding:5px 0 5px 30px">Population: ` + data[i].population + `</p>
+            <p class="card-text1" style="font-size:14px;font-weight:600;padding:5px 0 10px 30px">Region: ` + data[i].region + `</p>
+            <p class="card-text1" style="font-size:14px;font-weight:600;padding:5px 0 25px 30px">Capital: ` + data[i].capital + `</p>
+            </div>
+            </div></div></a><br>`;
+            output += "<br>";
+            } else {
+                output += `<a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><div class="card1"><div class="card" style="height: 10rem; width:15rem;
+                border-radius:5px; padding:0 rem;box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);">
+               <img class="card-img-top1"style="width:100%; 
+               height:100%; 
+               object-fit:cover; background-size: cover;background-position-y: top; border-radius:5px 5px 0px 0px; padding:0rem" src=${data[i].flag} alt="Card image cap"></a>
+               <a href="javascript:void(0)" name=${data[i].name} class="info_link" onclick="showanchorname(this.name)" ><div class="card-body1" style="box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.05);border-radius:5px">
+               <h1 class="card-text" style="font-size:18px;font-weight:700;padding:10px 0 10px 30px">` + data[i].name + `</h1>
+               <p class="card-text1" style="font-size:14px;font-weight:regular;padding:5px 0 5px 30px">Population: ` + data[i].population + `</p>
+               <p class="card-text1" style="font-size:14px;font-weight:600;padding:5px 0 10px 30px">Region: ` + data[i].region + `</p>
+               <p class="card-text1" style="font-size:14px;font-weight:600;padding:5px 0 25px 30px">Capital: ` + data[i].capital + `</p>
+               </div>
+               </div></div></a>`;
+            }
+            }
+            }
+            output += '</div>';
    $('#ifilter-cards').append(output);
        })
     }
